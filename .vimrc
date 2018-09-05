@@ -14,3 +14,6 @@ set expandtab "replace tabs with spaces
 :set textwidth=80 "set line length
 :set wrap linebreak nolist "wrap display, does not insert newline char
 :set colorcolumn=81 "visual display the boundary of a line
+
+"Set background to dark to improve automatic syntax highlight colors
+set background=dark
