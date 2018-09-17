@@ -1,6 +1,6 @@
 " Essential
 set nocompatible "Turn off compatibility with vi
-filetype plugin on
+filetype plugin on "Let vim reason about file type being worked on
 
 set number
 set relativenumber
