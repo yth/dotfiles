@@ -1,4 +1,5 @@
-set nocompatible
+" Essential
+set nocompatible "Turn off compatibility with vi
 filetype plugin on
 
 set number
