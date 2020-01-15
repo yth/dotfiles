@@ -6,7 +6,7 @@ set backupdir=~/.config/vim/backup//,.,~/tmp,~/
 set undodir=~/.config/vim/undo//,./tmp
 
 "" Use pathogen package manager
-"" execute pathogen#infect()
+execute pathogen#infect()
 
 "" Essential
 set nocompatible "Turn off compatibility with vi
