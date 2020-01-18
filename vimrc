@@ -10,15 +10,16 @@ execute pathogen#infect()
 
 "" Essential
 set nocompatible "Turn off compatibility with vi
-filetype plugin on "Let vim reason about file type being worked on
+filetype off "Force to load correctly
+filetype plugin indent on "Let vim reason about file type being worked on
 syntax on
 set number "Might be redundant
 set relativenumber
 
 "" Tabs and Spaces
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+"set tabstop=4
+"set softtabstop=4
+"set shiftwidth=4
 "set expandtab "replace tabs with spaces
 
 "" Line wrapping
