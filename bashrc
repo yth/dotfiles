@@ -11,7 +11,8 @@
 # Bash prettification
 #
 alias ls='ls --color=auto'
-PS1='[\u@\h \W]\$ '
+# PS1='[\u@\h \W]\$ ' #Default
+PS1='[\u@\h \A \w]\$ '
 
 
 #
