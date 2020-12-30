@@ -27,6 +27,21 @@ export VIMINIT="source $MYVIMRC"
 #
 export PATH="$HOME/.local/bin:$PATH"
 
+#
+# Git Related Shortcuts
+#
+function ga {
+	git add -A
+}
+
+function gc {
+	git commit -m "Update"
+}
+
+function gac {
+	ga
+	gc
+}
 
 #
 # Indicate that this file has been successful used
